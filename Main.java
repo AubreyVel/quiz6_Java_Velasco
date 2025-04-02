@@ -31,7 +31,7 @@ public class Main {
                 System.out.println("Voted for "+can1);
                 count ++;
                 vote1 ++;
-                System.out.println("Voting result:")
+                System.out.println("Voting result:");
                 System.out.println("Who do you want to vote? (1 for "+can1+" 2 for "+can2+")");
                 vote = newScanner.nextInt();
                     break;
@@ -39,14 +39,14 @@ public class Main {
                 System.out.println("Voted for "+can2);
                 count ++;
                 vote2 ++;
-                System.out.println("Voting result:")
+                System.out.println("Voting result:");
 
                 System.out.println("Who do you want to vote? (1 for "+can1+" 2 for "+can2+")");
                 vote = newScanner.nextInt();
                 
                     break;
                 default:
-                System.out.println("Not a valid canidate")
+                System.out.println("Not a valid canidate");
                     break;
                     //shouldve just mad a method, wouldve been easier
             }
